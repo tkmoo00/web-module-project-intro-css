@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  box-sizing: border-box;
+  /* border: 2px solid; */
+}
+
+h1 {
+  font-family: "Chelsea Market", "Courier New", Courier, monospace;
+}
+
+a,
+p {
+  font-family: "Roboto Mono", "Times New Roman", Times, serif;
+}
+
+header,
+footer {
+  width: 100%;
+  display: inline-block;
+  height: 100px;
+  padding: 1% 0px;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+button {
+  height: 60px;
+  width: 175px;
+  color: #fff;
+  background-color: orange;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.plan {
+  position: absolute;
+  left: 20%;
+  color: white;
+  background-color: #ff754e;
+}
+
+.learn {
+  position: absolute;
+  left: 45vw;
+}
+
+.learn button {
+  color: white;
+  background-color: #5fd3ec;
+}
+
+.get {
+  position: absolute;
+  right: 20%;
+  color: white;
+  background-color: #ffcd6a;
+}
+
+.title {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.title-text {
+  text-align: center;
+}
+
+.title-text h1 {
+  font-size: 75px;
+  margin-bottom: 30px;
+}
+
+.title-text p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.title-text p:last-child {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title img {
+  width: 250px;
+  height: fit-content;
+  border-radius: 100%;
+  margin-right: 50px;
+}
+
+.text-box {
+  color: #fff;
+  background-color: #ddb9a3;
+  width: 80%;
+  height: fit-content;
+  text-align: center;
+  padding: 1%;
+  margin: 0 auto 50px auto;
+}
+
+.box-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.main {
+  width: 20%;
+  margin: 0 auto 50px auto;
+}
+
+.main img {
+  width: 200px;
+  position: relative;
+  left: 20%;
+}
+
+.footer-img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: -5px;
+}
+
+footer {
+  background-color: #f9e7dd;
+  margin-bottom: -5px;
+}
+
+@media (max-width: 1000px) {
+  .title {
+    display: block;
+  }
+
+  .title img {
+    margin: 0 auto;
+  }
+}
